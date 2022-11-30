@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario's Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="headDiv">
+        <h1>Mario's Pest Control</h1>
+    </div>
+
+    <form name="myForm">
+        <div id="formDiv1">
+            <p>Goombas: <span>5 coins</span></p>
+            <img src="https://toppng.com/uploads/preview/oomba-transparent-original-goomba-mario-11562907242qqsijlcvrp.png">
+            <input min="0" type="number" name="goo" placeholder="Number caught" required>
+        </div>
+
+        <div id="formDiv2">
+            <p>Bob-Oms: <span>7 coins</span></p>
+            <img src="https://www.clipartmax.com/png/middle/183-1832375_mario-bros-clipart-mario-bomb-bob-omb-mario.png">
+            <input min="0" type="number" name="bob" placeholder="Number caught" required>
+        </div>
+
+        <div id="formDiv3">
+            <p>Cheep-Cheeps: <span>11 coins</span></p>
+            <img src="https://www.kindpng.com/picc/m/7-70281_cheep-cheep-cool-mario-cheep-cheep-hd-png.png">
+            <input min="0" type="number" name="che" placeholder="Number caught" required>
+        </div>
+
+        <div id="total">
+            <button>Click To Total</button>
+            <div id=totalResult> 
+
+            </div>
+        </div>
+        
+    </form>
+
+    <div id="blank">
+        <form name="resetForm">
+            <button id="reset">Reset</button>
+        </form>
+    </div>
+
+    <footer>
+            <li>mario.pests@mushroomkingdom.com</li>
+            <li>8424s mashroom st </li>
+            <li><a style="color: black;" href="">http://127.0.0.1:5500/index.html</a></li>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
